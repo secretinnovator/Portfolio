@@ -1,0 +1,222 @@
+* {
+box-sizing: border-box;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-zoom: 100%;
+
+}
+
+
+.navigation-1 a:hover {
+font-family: 'Gill Sans';
+ color: orange;
+ cursor: pointer;
+ font-weight: bolder;
+ text-decoration: none;
+ transition: .1s;
+ border-radius: 50px;
+}
+
+.navigation-1 {
+    top: 1.5%;
+    font-size: 40px;
+    text-align: right;
+    position: fixed;
+    margin-left: 39%;
+    right: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+    position: relative;
+    font-style: inherit;
+    border-style: outset;
+    border-width: thick;
+    border-color: darkgrey;
+    font-family: fantasy;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.upper-corner {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+width: auto;
+height: 12vh;
+padding: 0%;
+margin: 0%;
+cursor: default;
+}
+
+.tribute-txt {
+ text-decoration: none;
+ color: white;
+ font-family: centurygothic;
+ position: absolute;
+ margin-top: -8px;
+ margin-left: 8%;
+ font-size: 70px;
+
+}
+
+.second-anchor {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.upper-corner .second-anchor {
+    border-width: none;
+    border-style: none;
+}
+
+.cpc {
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 65px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.aboutelon {
+	position: absolute;
+	height: 160vh;
+  margin: auto;
+	padding: 2px;
+	width: 60%;
+	background: rgba(0, 0, 0, 0.5);
+	border: 5px solid white;
+	margin-top: 80px;
+	margin-left: 240px;
+}
+
+.first-h1 {
+	position: relative;
+	color: white;
+	font-family: centurygothic;
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: center;
+}
+
+.elonmusk {
+	position: absolute;
+	width: auto;
+	height: 65vh;
+	display: block;
+	margin-left: 50px;
+}
+
+.first-p {
+	margin-top: -40px;
+	font-family: centurygothic;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+
+}
+
+.second-p {
+    position: absolute;
+    margin-top: 320px;
+    font-family: centurygothic;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.third-p {
+    position: absolute;
+    margin-top: 420px;
+    font-family: centurygothic;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fourth-p {
+    position: absolute;
+    margin-top: 520px;
+    font-family: centurygothic;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fifth-p {
+    position: absolute;
+    margin-top: 620px;
+    font-family: centurygothic;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sixth-p {
+    position: absolute;
+    margin-top: 720px;
+    font-family: centurygothic;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.achievements {
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    font-family: centurygothic;
+    font-weight: bolder;
+    margin-left: 26.3%;
+    margin-top: 1050px;
+}
+
+
+
+
+
+
+.achievement-box {
+    position: absolute;
+    height: 212.5vh;
+  margin: auto;
+    padding: 2px;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    border: 5px solid white;
+    margin-top: 1190px;
+    margin-left: 240px;
+}
+
+.lowest-corner {
+bottom: 0;
+left: 0;
+right: 0;
+position: fixed;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: auto;
+height: 7vh;
+cursor: default;
+}
+
+.lowest-text {
+    text-align: center;
+    font-weight: bolder;
+
+}

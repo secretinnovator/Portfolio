@@ -1,0 +1,152 @@
+
+
+.navigation a:hover {
+font-family: 'Gill Sans';
+ color: orange;
+ cursor: pointer;
+ font-weight: bolder;
+ text-decoration: none;
+ transition: .1s;
+ border-radius: 50px;
+}
+
+.navigation {
+    font-size: 40px;
+    text-align: right;
+    position: fixed;
+    margin-left: 41%;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+    position: relative;
+    font-style: inherit;
+    border-style: outset;
+    border-width: thick;
+    border-color: darkgrey;
+    font-family: fantasy;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+h2 {
+
+    margin: 0;
+    padding: 0;
+    line-height: 75px;
+    text-align: center;
+
+}
+
+.randompic {
+    padding: 0;
+    position: absolute;
+    margin-top: -150px;
+    display: block;
+    margin-left: 760px;
+    width: 50%;
+    height: auto;
+
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-zoom: 100%;
+
+}
+
+.lower-corner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  cursor: default;
+}
+
+.head1 {
+    margin: 0;
+    padding: 0;
+    margin-left: 7.7%;
+}
+
+.head2 {
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+}
+
+.head3 {
+    margin: 0;
+    padding: 0;
+    margin-left: 13%;
+}
+
+.head4 {
+    margin: 0;
+    padding: 0;
+    margin-left: 6%;
+}
+
+.objective {
+    position: relative;
+    color: #d5cea3;
+
+}
+
+.cpc {
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 65px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.upper-corner {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+width: auto;
+height: 12vh;
+padding: 0%;
+margin: 0%;
+cursor: default;
+}
+
+.portfolio-text {
+ text-decoration: none;
+ color: white;
+ font-family: centurygothic;
+ position: absolute;
+ margin-top: -8px;
+ margin-left: 8%;
+ font-size: 70px;
+
+}
+
+.second-anchor {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.upper-corner .second-anchor {
+    border-width: none;
+    border-style: none;
+}
+
+

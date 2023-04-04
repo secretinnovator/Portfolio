@@ -1,0 +1,816 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #03c988;
+}
+
+.navigation-1 a:hover {
+font-family: 'Gill Sans';
+ color: orange;
+ cursor: pointer;
+ font-weight: bolder;
+ text-decoration: none;
+ transition: .1s;
+ border-radius: 50px;
+}
+
+.navigation-1 {
+	top: 1.5%;
+    font-size: 40px;
+    text-align: right;
+    position: fixed;
+    margin-left: 39%;
+    right: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+    position: relative;
+    font-style: inherit;
+    border-style: outset;
+    border-width: thick;
+    border-color: darkgrey;
+    font-family: fantasy;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.upper-corner {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+width: auto;
+height: 12vh;
+padding: 0%;
+margin: 0%;
+cursor: default;
+}
+
+.resume-txt {
+ text-decoration: none;
+ color: white;
+ font-family: centurygothic;
+ position: absolute;
+ margin-top: -8px;
+ margin-left: 8%;
+ font-size: 70px;
+
+}
+
+.second-anchor {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.upper-corner .second-anchor {
+    border-width: none;
+    border-style: none;
+}
+
+.cpc {
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 65px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.first-border {
+
+margin: auto;
+padding: 3px;
+width: 50%;
+background: white;
+border: 5px solid palevioletred;
+margin-top: 90px;
+
+}
+
+.angelicacute {
+	width: auto;
+	height: 30vh;
+	position: absolute;
+	border-radius: 200px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+.second-name {
+	position: absolute;
+	margin-left: 225px;
+	margin-top: 10px;
+	font-family: centurygothic;
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 50;
+}
+
+.name {
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 190px;
+	font-family: centurygothic;
+	color: white;
+
+}
+
+.paragraph {
+
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 236px;
+	font-family: monospace;
+	color: white;
+}
+
+.personal-background {
+
+position: absolute;
+	color: darkgray;
+	margin-left: 220px;
+	font-family: centurygothic;
+	margin-top: 75px;
+
+}
+
+.personal-background1 {
+
+font-size: 13px;
+	position: absolute;
+	color: black;
+	margin-top: 95px;
+	margin-left: 190px;
+
+}
+
+.personal-background2 {
+
+font-size: 13px;
+	position: absolute;
+	color: black;
+	margin-top: 95px;
+	margin-left: 320px;
+
+
+}
+
+.work-experience1 {
+	position: absolute;
+	color: white;
+	margin-left: 42px;
+	font-family: centurygothic;
+	margin-top: 300px;
+}
+
+.work-experience {
+	font-size: 13px;
+	position: absolute;
+	color: black;
+	margin-top: 300px;
+	margin-left: 190px;
+
+}
+
+.educ-background {
+	position: absolute;
+	color: white;
+	margin-left: 65px;
+	font-family: centurygothic;
+	margin-top: 495px;
+}
+
+.educ-background2 {
+	font-size: 13px;
+	position: absolute;
+	color: black;
+	margin-top: 495px;
+	margin-left: 190px;
+
+}
+
+.hobbies {
+
+position: absolute;
+	color: white;
+	margin-left: 65px;
+	font-family: centurygothic;
+	margin-top: 780px;
+
+}
+
+.hobbies2 {
+
+font-size: 13px;
+	position: absolute;
+	color: black;
+	margin-top: 780px;
+	margin-left: 190px;
+
+}
+
+.skills {
+	position: absolute;
+	color: white;
+	margin-left: 80px;
+	font-family: centurygothic;
+	margin-top: 960px;
+}
+
+.skills2 {
+
+
+font-size: 13px;
+	position: absolute;
+	color: black;
+	margin-top: 960px;
+	margin-left: 190px;
+
+}
+
+.cen {
+	font-family: monospace;
+	font-weight: bolder;
+}
+
+.accenture {
+	font-family: monospace;
+}
+
+
+.first-line {
+margin-left: 25px;
+margin-right: 45px;
+margin-top: 225px;
+border: 3px solid white;
+border-radius: 5px;
+width: 12%;
+position: absolute;
+}
+
+.second-line {
+
+	margin-left: 25px;
+margin-right: 45px;
+margin-top: 290px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 12%;
+position: absolute;
+
+}
+
+.third-line {
+
+	margin-left: 205px;
+margin-right: 45px;
+margin-top: 290px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 32%;
+position: absolute;
+
+}
+
+.fourth-line {
+
+	margin-left: 25px;
+margin-right: 45px;
+margin-top: 485px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 12%;
+position: absolute;
+
+}
+
+.sixth-line {
+
+	margin-left: 25px;
+margin-right: 45px;
+margin-top: 770px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 12%;
+position: absolute;
+
+}
+
+.fifth-line {
+	margin-left: 205px;
+margin-right: 45px;
+margin-top: 485px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 32%;
+position: absolute;
+
+}
+
+.seventh-line {
+	margin-left: 205px;
+margin-right: 45px;
+margin-top: 770px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 32%;
+position: absolute;
+}
+
+.eight-line {
+	margin-left: 25px;
+margin-right: 45px;
+margin-top: 950px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 12%;
+position: absolute;
+
+}
+
+.ninth-line {
+	margin-left: 205px;
+margin-right: 45px;
+margin-top: 950px;
+border: 3px solid darkorange;
+border-radius: 5px;
+width: 32%;
+position: absolute;
+}
+
+.back-button {
+	position: sticky;
+	text-align: left;
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: monospace;
+}
+
+.back-button a:hover {
+	position: sticky;
+	transition: .1s;
+	color: darkorange;
+	text-decoration: none;
+}
+
+.back-button {
+	font-size: 40px;
+}
+
+.backback {
+	text-decoration: none;
+	color: cyan;
+}
+
+.color-fill {
+	margin-left: 0;
+	height: 199vh;
+	width: 200px;
+	background: palevioletred;
+}
+
+
+
+
+
+
+
+
+.second-border {
+
+	height: 260vh;
+    margin: auto;
+	padding: 2px;
+	width: 60%;
+	background: white;
+	border: 5px solid darkkhaki;
+	margin-top: 80px;
+
+}
+
+.color-fill2 {
+
+	margin-left: 0;
+	height: 40vh;
+	width: 40hh;
+	background: darksalmon;
+
+}
+
+.color-fill3 {
+	margin-left: 0;
+	width: 34%;
+	height: 84.5%;
+	background: #333333;
+}
+
+.inside-header {
+	color: limegreen;
+	position: absolute;
+	font-family: serif;
+	margin-top: 6px;
+	margin-left: 55px;
+}
+
+.college-bg {
+    font-size: xx-large;
+    font-weight: bolder;
+	color: darkorange;
+	position: absolute;
+	font-family: serif;
+	margin-top: 55px;
+	margin-left: 28px;
+}
+
+.hs-bg {
+	font-size: xx-large;
+    font-weight: bolder;
+	color: darkorange;
+	position: absolute;
+	font-family: serif;
+	margin-top: 140px;
+	margin-left: 3px;
+}
+
+.elem-bg {
+font-size: xx-large;
+    font-weight: bolder;
+	color: darkorange;
+	position: absolute;
+	font-family: serif;
+	margin-top: 225px;
+	margin-left: 3px;
+}
+
+.college-info {
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 29.5px;
+	color: white;
+	font-family: serif;
+	font-size: medium;
+	font-weight: bolder;
+}
+
+.highschool-info {
+
+	font-weight: bolder;
+	position: absolute;
+	color: white;
+	font-family: serif;
+	margin-top: 180px;
+	margin-left: 6px;
+}
+
+.elem-info {
+	font-weight: bolder;
+	position: absolute;
+	color: white;
+	font-family: serif;
+	margin-top: 260px;
+	margin-left: 25px;
+}
+
+.marcid {
+	background: lightcoral;
+	width: auto;
+	height: 35vh;
+	position: absolute;
+	border-radius: 40%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.marcname {
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 230px;
+	font-family: centurygothic;
+	font-size: xx-large;
+	text-decoration: none;
+	color: white;
+	
+}
+
+.objective-class {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 315px;
+	font-family: times new roman;
+	font-size: 24px;
+	text-decoration: none;
+	color: white
+}
+
+.objective-class2 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 164px;
+	font-family: times new roman;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+}
+
+.objective-class3 {
+	position: absolute;
+	margin-top: 117px;
+	margin-left: 175px;
+	font-family: times new roman;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+}
+
+.interests {
+	color: limegreen;
+	position: absolute;
+	font-family: serif;
+	margin-top: 310px;
+	margin-left: 63px;
+}
+
+.interests-details {
+	position: absolute;
+	font-family: serif;
+	margin-top: 350px;
+	margin-left: 43px;
+}
+
+.interests-details li {
+	color: white;
+	font-family: serif;
+	font-size: medium;
+	font-weight: bolder;
+	margin: 3;
+}
+
+.second-skills {
+	color: limegreen;
+	position: absolute;
+	font-family: serif;
+	margin-top: 570px;
+	margin-left: 82px;
+}
+
+.advanced {
+	color: darkorange;
+	position: absolute;
+	font-family: serif;
+	margin-top: 615px;
+	margin-left: 50px;
+}
+
+.intermediateclass {
+	color: darkorange;
+	position: absolute;
+	font-family: serif;
+	margin-top: 750px;
+	margin-left: 33px;
+}
+
+.classhtml {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 665px;
+}
+
+.classc {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 685px;
+}
+
+.classcpp {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 705px;
+}
+
+.classpy {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 725px;
+}
+
+.classjava {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 795px;
+}
+
+.classswift {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 815px;
+}
+
+.classgolang {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 835px;
+}
+
+.classcs {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 855px;
+}
+
+.classdel {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 875px;
+}
+
+.classruby {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 895px;
+}
+
+.beginnerclass {
+	color: darkorange;
+	position: absolute;
+	font-family: serif;
+	margin-top: 920px;
+	margin-left: 60px;
+}
+
+.hask {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 965px;
+}
+
+.malb {
+left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 985px;
+}
+
+.pasc {
+left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 1005px;
+}
+
+.perl {
+left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 1025px;
+}
+
+.vbas {
+left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 1045px;
+}
+
+.matlab {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 1065px;
+}
+
+.obc {
+	left: 21.5%;
+	font-size: small;
+	color: white;
+	position: absolute;
+	font-family: serif;
+	font-weight: bolder;
+	margin-top: 1085px;
+}
+
+.marc-work-experience {
+
+	color: darkgray;
+	position: absolute;
+	font-family: serif;
+	margin-top: 6px;
+	margin-left: 270px;
+
+}
+
+.workexp1 {
+	font-weight: bolder;
+	color: blueviolet;
+	position: absolute;
+	font-family: cursive;
+	margin-top: 40px;
+	margin-left: 255px;
+}
+
+.workexp2 {
+	font-weight: bolder;
+	color: blueviolet;
+	position: absolute;
+	font-family: cursive;
+	margin-top: 315px;
+	margin-left: 255px;
+}
+
+.workexp3 {
+	font-weight: bolder;
+	color: blueviolet;
+	position: absolute;
+	font-family: cursive;
+	margin-top: 615px;
+	margin-left: 255px;
+}
+
+.lowest-corner {
+bottom: 0;
+left: 0;
+right: 0;
+position: fixed;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: auto;
+height: 7vh;
+cursor: default;
+}
+
+.lowest-text {
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+

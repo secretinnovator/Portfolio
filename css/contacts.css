@@ -1,0 +1,398 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+}
+
+#video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-zoom: 100%;
+
+}
+
+
+.navigation-1 a:hover {
+font-family: 'Gill Sans';
+ color: orange;
+ cursor: pointer;
+ font-weight: bolder;
+ text-decoration: none;
+ transition: .1s;
+ border-radius: 50px;
+}
+
+.navigation-1 {
+	top: 1.5%;
+    font-size: 40px;
+    text-align: right;
+    position: fixed;
+    margin-left: 39%;
+    right: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+    position: relative;
+    font-style: inherit;
+    border-style: outset;
+    border-width: thick;
+    border-color: darkgrey;
+    font-family: fantasy;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.upper-corner {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+width: auto;
+height: 12vh;
+padding: 0%;
+margin: 0%;
+cursor: default;
+}
+
+.contacts-txt {
+ text-decoration: none;
+ color: white;
+ font-family: centurygothic;
+ position: absolute;
+ margin-top: -8px;
+ margin-left: 8%;
+ font-size: 70px;
+
+}
+
+.second-anchor {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.upper-corner .second-anchor {
+    border-width: none;
+    border-style: none;
+}
+
+.cpc {
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 65px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.first-border {
+    position: relative;
+    height: 45vh;
+    padding: 2px;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    border: 5px solid white;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+
+.marcbryant {
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 55%;
+    background-color: palevioletred;
+    width: auto;
+    height: 150px;
+}
+
+.contact1 {
+    position: fixed;
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 17px;
+    top: 154px;
+
+}
+
+.h-one {
+    position: absolute;
+    color: white;
+    font-family: centurygothic;
+    margin-left: 10%;
+    margin-top: 5.5px;
+}
+
+.contact2 {
+    position: absolute;
+    width: auto;
+    height: 40px;
+    left: 17px;
+    top: 215px;
+}
+
+.clink2 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: -4.5px;
+}
+
+.h-two {
+    position: absolute;
+    color: white;
+    font-family: centurygothic;
+    margin-left: 10%;
+    margin-top: 58px;
+}
+
+.contact3 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 18px;
+
+}
+
+.clink3 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+.contact4 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 78px;
+
+}
+
+.clink4 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+.contact5 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 138px;
+
+}
+
+.clink5 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+.contact6 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 198px;
+
+}
+
+.clink6 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+
+
+
+
+.second-border {
+    position: relative;
+    height: 45vh;
+    padding: 2px;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-left: 240px;
+}
+
+.angelica {
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 55%;
+    background-color: palevioletred;
+    width: auto;
+    height: 150px;
+}
+
+.contact11 {
+    position: fixed;
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 17px;
+    top: 154px;
+
+}
+
+.h-oneone {
+    position: absolute;
+    color: white;
+    font-family: centurygothic;
+    margin-left: 10%;
+    margin-top: 5.5px;
+}
+
+.contact22 {
+    position: absolute;
+    width: auto;
+    height: 40px;
+    left: 17px;
+    top: 215px;
+}
+
+.clink22 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: -4.5px;
+}
+
+.h-twotwo {
+    position: absolute;
+    color: white;
+    font-family: centurygothic;
+    margin-left: 10%;
+    margin-top: 58px;
+}
+
+.contact33 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 18px;
+
+}
+
+.clink33 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+.contact44 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 78px;
+
+}
+
+.clink44 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+.contact55 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 138px;
+
+}
+
+.clink55 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+.contact66 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 410px;
+    top: 198px;
+
+}
+
+.clink66 {
+    position: fixed;
+    text-decoration: none;
+    position: absolute;
+    border-width: none;
+    border-style: none;
+    padding: 0;
+    left: 2.5px;
+}
+
+.lowest-corner {
+bottom: 0;
+left: 0;
+right: 0;
+position: fixed;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: auto;
+height: 7vh;
+cursor: default;
+}
+
+.lowest-text {
+    text-align: center;
+    font-weight: bolder;
+
+}
